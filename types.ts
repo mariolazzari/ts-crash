@@ -1,3 +1,5 @@
+console.log("Types");
+
 let myString: string = "";
 let myNum: number = 0;
 let myBool: boolean = true;
@@ -20,3 +22,13 @@ numArray = [1, 2, 3, 4];
 console.log(numArray);
 boolArray = [true, false];
 console.log(boolArray);
+
+// tuple
+let myTuple: [string, number];
+myTuple = ["Hello tuple", 4];
+console.log("my tuple:", myTuple);
+
+let myVoid: void = undefined;
+let myNull: null = null;
+let myUndefined: undefined = undefined;
+console.log(myVoid, myNull, myUndefined);

@@ -16,3 +16,11 @@ numArray = [1, 2, 3, 4];
 console.log(numArray);
 boolArray = [true, false];
 console.log(boolArray);
+// tuple
+var myTuple;
+myTuple = ["Hello tuple", 4];
+console.log("my tuple:", myTuple);
+var myVoid = undefined;
+var myNull = null;
+var myUndefined = undefined;
+console.log(myVoid, myNull, myUndefined);
